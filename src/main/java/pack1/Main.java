@@ -13,7 +13,6 @@ public class Main {
         Logger logger = LoggerFactory.getLogger(Main.class);
         logger.debug("Hello World!!!");
 
-    //System.out.print("hello world!");
 
 
     }

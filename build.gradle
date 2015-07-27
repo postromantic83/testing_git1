@@ -14,8 +14,9 @@ jar.manifest.attributes("Main-Class": "pack1.Main")
 mainClassName = "pack1.Main"
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile "junit:junit:4.+"
     compile 'org.slf4j:slf4j-api:1.7.+'
     compile 'org.slf4j:slf4j-simple:1.7.+'
+    testCompile "org.mockito:mockito-core:1.+"
 
 }

@@ -9,12 +9,13 @@ repositories {
     mavenCentral()
 }
 
-jar.manifest.attributes("Main-Class": "pack1.Main")
+jar.manifest.attributes("Main-Class": "floatimperfect.Main")
 
-mainClassName = "pack1.Main"
+mainClassName = "floatimperfect.Main"
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    testCompile "org.mockito:mockito-core:1.+"
     compile 'org.slf4j:slf4j-api:1.7.+'
     compile 'org.slf4j:slf4j-simple:1.7.+'
 

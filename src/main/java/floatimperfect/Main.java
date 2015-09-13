@@ -1,4 +1,4 @@
-package pack1;
+package floatimperfect;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,9 +11,14 @@ public class Main {
     public static void main(String[] args) {
 
         Logger logger = LoggerFactory.getLogger(Main.class);
-        logger.debug("Hello World!!!");
+        Sample1 sample1 = new Sample1(0.3f,0.4f);
+        sample1.calculate();
 
-    //System.out.print("hello world!");
+
+
+        logger.info("a + b=" + sample1.getFloatResult());
+       // System.out.println(sample1.getFloatResult());
+   
 
 
     }
